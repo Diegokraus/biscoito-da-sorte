@@ -34,7 +34,7 @@ function App() {
 
   return (
     <View style={styles.container}>
-
+      
       <Image
         source={img}
         style={styles.img}
@@ -62,7 +62,8 @@ const styles = StyleSheet.create({
   container:{
     flex:1,
     justifyContent:'center',
-    alignItems:'center'
+    alignItems:'center',
+    backgroundColor:'#d6d6cd'
   },
   img:{
     width:230,
@@ -93,7 +94,5 @@ const styles = StyleSheet.create({
     color:'#dd7b22'
   }
 })
-
-
 
 export default App;
